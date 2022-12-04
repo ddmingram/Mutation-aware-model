@@ -72,7 +72,7 @@ base_params = [N, n, mass,...
 
 %% Initial variables
 
-load('_Data/SS_noH.mat')
+load('SS_noH.mat')
 
 
 
