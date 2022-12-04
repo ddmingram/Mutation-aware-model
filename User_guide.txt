@@ -1,4 +1,4 @@
-To run the software, MATLAB 2020a or later is required.
+To run the software, MATLAB 2020a or later is required. There are no specific operating or computing requirements.
 
 All files here should be downloaded to the same folder.
 
