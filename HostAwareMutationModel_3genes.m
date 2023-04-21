@@ -66,7 +66,7 @@ d = sum(active_dims); % The number of active dimensions
 %%% s: number of states per dimension. For s>3, need to add in extra
 %%% parameters, as explained in Section 1. The code currently forces each
 %%% dimension to have the same number of states, but this could be changed.
-s = 3;
+s = 2;
 
 n = s^d; % Number of mutation states in the framework
 

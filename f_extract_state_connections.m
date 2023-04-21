@@ -31,7 +31,7 @@ for i=1:n
         
         % States
         coord_up = state_connections{i,3}(j,:); % Get coord of first upstream state
-        idx = f_coord_converter(coord_up,d,s); % What idx is that state?
+        idx = f_coord_converter(coord_up, s, d); % What idx is that state?
         states_up{i} = [states_up{i}, idx];
         
         % z: values from state_connections act as indicies for z_mat
@@ -45,7 +45,7 @@ for i=1:n
         
         % " "
         coord_dn = state_connections{i,5}(j,:);
-        idx = f_coord_converter(coord_dn,d,s);
+        idx = f_coord_converter(coord_dn, s, d);
         states_dn{i} = [states_dn{i}, idx];
         
         % " "
